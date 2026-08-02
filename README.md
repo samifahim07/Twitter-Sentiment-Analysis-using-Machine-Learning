@@ -12,32 +12,32 @@ The notebook includes the complete workflow from data loading to model training,
 
 ---
 
- Features
+## Features
 
 - Exploratory Data Analysis (EDA)
-- Text preprocessing
+- Text Preprocessing
 - Tokenization
-- Stopword removal
+- Stopword Removal
 - Stemming & Lemmatization
 - TF-IDF Vectorization
 - Random Forest Classifier
 - Model Evaluation
-- Save trained model using Pickle
+- Save Trained Model using Pickle
 
 ---
 
- Dataset
+## Dataset
 
 The dataset contains four columns:
 
 | Column | Description |
 |---------|-------------|
 | Tweet_ID | Unique Tweet ID |
-| Entity | Company/Product mentioned |
-| Sentiment | Target label |
-| Tweet | Tweet text |
+| Entity | Company/Product Mentioned |
+| Sentiment | Target Label |
+| Tweet | Tweet Text |
 
-Example sentiments include:
+### Sentiment Classes
 
 - Positive
 - Negative
@@ -46,7 +46,7 @@ Example sentiments include:
 
 ---
 
- Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -61,7 +61,7 @@ Example sentiments include:
 
 ## Machine Learning Pipeline
 
-```
+```text
 Load Dataset
       │
       ▼
@@ -100,7 +100,7 @@ Save Model (.pkl)
 
 ---
 
- Evaluation Metrics
+## Evaluation Metrics
 
 The model is evaluated using:
 
@@ -110,9 +110,7 @@ The model is evaluated using:
 
 ---
 
-
-
- Required Libraries
+## Required Libraries
 
 ```text
 pandas
@@ -122,7 +120,9 @@ seaborn
 scikit-learn
 nltk
 pickle
+```
 
+---
 
 ## NLP Techniques Used
 
@@ -139,7 +139,6 @@ pickle
 
 ---
 
-
 ## Future Improvements
 
 - XGBoost
@@ -147,7 +146,7 @@ pickle
 - CatBoost
 - Deep Learning (LSTM)
 - BERT / RoBERTa
-- Streamlit Web App
+- Streamlit Web Application
 - Flask REST API
 - Hyperparameter Tuning
 
