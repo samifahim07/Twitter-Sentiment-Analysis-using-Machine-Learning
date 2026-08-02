@@ -110,47 +110,7 @@ The model is evaluated using:
 
 ---
 
-## Project Structure
 
-```
-Twitter-Sentiment-Analysis/
-│
-├── Twitter-sentiment.ipynb
-├── twitter_training.csv
-├── model.pkl
-├── README.md
-└── requirements.txt
-```
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/twitter-sentiment-analysis.git
-```
-
-Move into the project:
-
-```bash
-cd twitter-sentiment-analysis
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the notebook:
-
-```bash
-jupyter notebook
-```
-
----
 
 ## Required Libraries
 
@@ -162,15 +122,7 @@ seaborn
 scikit-learn
 nltk
 pickle
-```
 
-Or install manually:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nltk
-```
-
----
 
 ## NLP Techniques Used
 
