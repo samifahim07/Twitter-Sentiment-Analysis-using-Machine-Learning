@@ -12,7 +12,7 @@ The notebook includes the complete workflow from data loading to model training,
 
 ---
 
-## Features
+ Features
 
 - Exploratory Data Analysis (EDA)
 - Text preprocessing
@@ -26,7 +26,7 @@ The notebook includes the complete workflow from data loading to model training,
 
 ---
 
-## Dataset
+ Dataset
 
 The dataset contains four columns:
 
@@ -46,7 +46,7 @@ Example sentiments include:
 
 ---
 
-## Technologies Used
+ Technologies Used
 
 - Python
 - Pandas
