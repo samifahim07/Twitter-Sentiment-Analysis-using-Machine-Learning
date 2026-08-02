@@ -100,7 +100,7 @@ Save Model (.pkl)
 
 ---
 
-## Evaluation Metrics
+ Evaluation Metrics
 
 The model is evaluated using:
 
