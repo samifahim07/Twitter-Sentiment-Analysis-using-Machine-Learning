@@ -1,4 +1,4 @@
-# Twitter Sentiment Analysis using Machine Learning
+# Twitter Sentiment Analysis using NLP
 
 A Machine Learning project that classifies Twitter posts into different sentiment categories using Natural Language Processing (NLP) techniques.
 
